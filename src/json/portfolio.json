@@ -3,56 +3,56 @@
         {
             "title": "SIPLah Eurekabookhouse (Kemdikbud)",
             "description": "React.js, Vue.js, REST API, CodeIgniter, MySQL, Firebase, Redux",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/siplah.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/siplah.png",
             "urlGithub": null,
             "urlDemo": "https://siplah.eurekabookhouse.co.id/"
         },
         {
             "title": "Jaja.id",
             "description": "CodeIgniter, REST API, MySQL, Firebase",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/jaja_id.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/jaja_id.png",
             "urlGithub": null,
             "urlDemo": "https://jaja.id/"
         },
         {
             "title": "Eureka Logistics",
             "description": "CodeIgniter, MySQL, Ajax",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/elogs.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/elogs.png",
             "urlGithub": null,
             "urlDemo": "https://eurekalogistics.co.id/"
         },
         {
             "title": "DYC Shop",
             "description": "CodeIgniter, MySQL, Ajax",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/dyc_shop.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/dyc_shop.png",
             "urlGithub": "https://github.com/githubdev99/dyc_shop",
             "urlDemo": null
         },
         {
             "title": "POS Coffeeshop",
             "description": "CodeIgniter, Express.js, REST API, MySQL",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/pos_coffeeshop.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/pos_coffeeshop.png",
             "urlGithub": "https://github.com/githubdev99/pos-coffeeshop",
             "urlDemo": null
         },
         {
             "title": "Fixit",
             "description": "CodeIgniter, MySQL, Ajax",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/fixit.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/fixit.png",
             "urlGithub": "https://github.com/githubdev99/fixit",
             "urlDemo": null
         },
         {
             "title": "Pustaka Booking",
             "description": "CodeIgniter, MySQL, Ajax",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/pustaka_booking.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/pustaka_booking.png",
             "urlGithub": "https://github.com/githubdev99/pustaka_booking",
             "urlDemo": null
         },
         {
             "title": "Eureka Finance",
             "description": "React.js, Redux",
-            "image": "file:///D:/Development/React.js/portfolio-reactjs/src/assets/history_projects/eureka_finance.png",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/eureka_finance.png",
             "urlGithub": "https://github.com/githubdev99/eurekafinance-reactjs",
             "urlDemo": null
         }
