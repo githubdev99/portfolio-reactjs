@@ -12,6 +12,7 @@ const Footer = (props) => {
             <ul className='permalinks'>
                 <li><a href="#">Beranda</a></li>
                 <li><a href="#about">Tentang</a></li>
+                <li><a href="#work">Riwayat Pekerjaan</a></li>
                 <li><a href="#experience">Keahlian</a></li>
                 <li><a href="#services">Kemitraan</a></li>
                 <li><a href="#portfolio">Portofolio</a></li>

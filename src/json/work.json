@@ -2,10 +2,12 @@
     "cards": [
         {
             "title": "PT Hexpharm Jaya Laboratories",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_company/hexpharm_jaya.png",
             "description": "Operator Produksi (Agustus 2018 - Agustus 2019)"
         },
         {
             "title": "PT Eureka Logistics (Erlangga Group)",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_company/eureka_logistics.png",
             "description": "Fullstack Developer (Februari 2020 - Mei 2022)"
         }
     ]

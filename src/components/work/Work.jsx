@@ -1,10 +1,9 @@
 import React from 'react'
-import './../portfolio/portfolio.css'
 import './work.css'
 
 const Work = (props) => {
     return (
-        <section id='portfolio'>
+        <section id='work'>
             <h5>Pernah Bekerja Di</h5>
             <h2>Riwayat Pekerjaan</h2>
 
