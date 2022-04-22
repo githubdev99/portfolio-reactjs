@@ -1,15 +1,15 @@
 import React from 'react'
 import './about.css'
-import ME from './../../assets/me-edited.png'
+import ME from './../../assets/me-about-edited.png'
 import { FaAward } from "react-icons/fa"
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 
-const About = () => {
+const About = (props) => {
     return (
         <section id='about'>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <h5>Mengenal Lebih Lanjut</h5>
+            <h2>Tentang Saya</h2>
 
             <div className="container about__container">
                 <div className="about__me">
@@ -22,28 +22,26 @@ const About = () => {
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon' />
-                            <h5>Experience</h5>
-                            <small>2+ Years Working</small>
+                            <h5>Pengalaman Kerja</h5>
+                            <small>{props.aboutData.historyExperience}</small>
                         </article>
 
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
+                            <h5>Pernah Bermitra</h5>
+                            <small>{props.aboutData.historyPartner}</small>
                         </article>
 
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
-                            <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <h5>Proyek</h5>
+                            <small>{props.aboutData.historyProject}</small>
                         </article>
                     </div>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officiis, tempore quos adipisci consectetur a explicabo. Magni laudantium ut ab voluptas maiores, voluptate magnam fuga adipisci possimus praesentium ipsam saepe.
-                    </p>
+                    <div dangerouslySetInnerHTML={{ __html: props.aboutData.aboutMe }} />
 
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="#contact" className='btn btn-primary'>Kontak Saya</a>
                 </div>
             </div>
         </section>

@@ -1,0 +1,54 @@
+{
+    "cards": [
+        {
+            "title": "Frontend Development",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "description": "Tingkat Lanjutan"
+                },
+                {
+                    "name": "CSS",
+                    "description": "Menengah"
+                },
+                {
+                    "name": "Bootstrap",
+                    "description": "Menengah"
+                },
+                {
+                    "name": "JavaScript",
+                    "description": "Menengah"
+                },
+                {
+                    "name": "React.js",
+                    "description": "Pemula"
+                }
+            ]
+        },
+        {
+            "title": "Backend Development",
+            "skills": [
+                {
+                    "name": "Node JS",
+                    "description": "Menengah"
+                },
+                {
+                    "name": "PHP",
+                    "description": "Tingkat Lanjutan"
+                },
+                {
+                    "name": "MySQL",
+                    "description": "Tingkat Lanjutan"
+                },
+                {
+                    "name": "Express.js",
+                    "description": "Menengah"
+                },
+                {
+                    "name": "Firebase",
+                    "description": "Pemula"
+                }
+            ]
+        }
+    ]
+}

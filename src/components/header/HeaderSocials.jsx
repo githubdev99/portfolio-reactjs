@@ -1,12 +1,14 @@
 import React from 'react'
 import { BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa';
 
-const HeaderSocials = () => {
+const HeaderSocials = (props) => {
     return (
         <div className='header__socials'>
-            <a href="https://www.linkedin.com/in/devan-firmansyah-ramadhan-aaba4a10a" target="_blank" rel='noreferrer'><BsLinkedin /></a>
-            <a href="https://github.com/githubdev99" target="_blank" rel='noreferrer'><BsGithub /></a>
-            <a href="https://www.instagram.com/devanfrmnsyh/" target="_blank" rel='noreferrer'><BsInstagram /></a>
+            <a href={props.profileData.linkedin} target="_blank" rel='noreferrer'><BsLinkedin /></a>
+            <a href={props.profileData.github} target="_blank" rel='noreferrer'><BsGithub /></a>
+            <a href={props.profileData.instagram} target="_blank" rel='noreferrer'><BsInstagram /></a>
+            <a href={props.profileData.facebook} target="_blank" rel='noreferrer'><FaFacebookF /></a>
         </div>
     )
 }

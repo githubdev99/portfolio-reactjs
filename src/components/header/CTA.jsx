@@ -1,10 +1,10 @@
 import React from 'react'
 
-const CTA = () => {
+const CTA = (props) => {
     return (
         <div className='cta'>
-            <a href="https://drive.google.com/file/d/1BDAC7yR6pNF0m3y6g2Einp-NMKy7R5VS/view?usp=sharing" target="_blank" rel="noreferrer" className='btn'>Download CV</a>
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <a href={props.profileData.urlCv} target="_blank" rel="noreferrer" className='btn'>Unduh CV</a>
+            <a href="#contact" className='btn btn-primary'>Kontak Saya</a>
         </div>
     )
 }

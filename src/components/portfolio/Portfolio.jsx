@@ -1,80 +1,29 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from './../../assets/portfolio1.jpg'
-import IMG2 from './../../assets/portfolio2.jpg'
-import IMG3 from './../../assets/portfolio3.jpg'
-import IMG4 from './../../assets/portfolio4.jpg'
-import IMG5 from './../../assets/portfolio5.png'
-import IMG6 from './../../assets/portfolio6.jpg'
 
-const data = [
-    {
-        id: 1,
-        image: IMG1,
-        title: 'title',
-        url: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 2,
-        image: IMG2,
-        title: 'title',
-        url: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 3,
-        image: IMG3,
-        title: 'title',
-        url: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: 'title',
-        url: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: 'title',
-        url: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 6,
-        image: IMG6,
-        title: 'title',
-        url: 'https://github.com',
-        demo: 'https://github.com'
-    }
-]
-
-const Portfolio = () => {
+const Portfolio = (props) => {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            <h5>Riwayat Proyek</h5>
+            <h2>Portofolio</h2>
 
             <div className="container portfolio__container">
-                {
-                    data.map((item, index) => {
-                        return (
-                            <article key={item.id} className='portfolio__item'>
-                                <div className="portfolio__item-image">
-                                    <img src={item.image} alt={`img${index}`} />
-                                </div>
-                                <h3>{item.title}</h3>
-                                <div className="portfolio__item-cta">
-                                    <a href={item.url} className='btn' target='_blank' rel='noreferrer'>Github</a>
-                                    <a href={item.demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
-                                </div>
-                            </article>
-                        )
-                    })
-                }
+                {props.portfolioData.cards.map((item, index) => {
+                    return (
+                        <article key={index} className='portfolio__item'>
+                            <div className="portfolio__item-image">
+                                <img src={item.image} alt={`img${index}`} />
+                            </div>
+                            <h3>{item.title}</h3>
+                            <p>{item.description}</p>
+                            <br />
+                            <div className="portfolio__item-cta">
+                                {(item.urlGithub) ? <a href={item.urlGithub} className='btn' target='_blank' rel='noreferrer'>Github</a> : ``}
+                                {(item.urlDemo) ? <a href={item.urlDemo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a> : ``}
+                            </div>
+                        </article>
+                    )
+                })}
             </div>
         </section>
     )

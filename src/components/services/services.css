@@ -23,6 +23,9 @@
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 .service__head h3 {
@@ -48,6 +51,15 @@
 
 .service__list p {
     font-size: 0.9rem;
+}
+
+.partner__logo {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 0.4rem solid var(--color-primary-variant);
+    object-fit: contain;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

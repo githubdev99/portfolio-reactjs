@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "title": "Midtrans",
+            "logo": "https://midtrans.com/assets/img/midtrans-logoo.jpg?v=1646907785",
+            "descriptions": [
+                "Bekerjasama saat bekerja di PT Penerbit Erlangga",
+                "Kemitraan mengenai Payment Gateway"
+            ]
+        },
+        {
+            "title": "BRIVA",
+            "logo": "https://blog-media.lifepal.co.id/app/uploads/sites/3/2021/09/22080000/BRIVA-BRI.jpg",
+            "descriptions": [
+                "Bekerjasama saat bekerja di PT Penerbit Erlangga",
+                "Kemitraan mengenai Payment Gateway"
+            ]
+        },
+        {
+            "title": "Transaka Dunia Express",
+            "logo": "https://transakacargo.com/enlight/logo.png",
+            "descriptions": [
+                "Bekerjasama saat bekerja di PT Penerbit Erlangga",
+                "Kemitraan mengenai Kurir Aggregator"
+            ]
+        },
+        {
+            "title": "Jurnal.id",
+            "logo": "https://pbs.twimg.com/profile_images/1115848933085995008/jtXCm3-0_400x400.png",
+            "descriptions": [
+                "Bekerjasama saat bekerja di PT Penerbit Erlangga",
+                "Kemitraan mengenai Accounting System"
+            ]
+        }
+    ]
+}
