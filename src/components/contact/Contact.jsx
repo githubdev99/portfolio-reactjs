@@ -3,6 +3,7 @@ import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
 import emailjs from 'emailjs-com'
+import Swal from 'sweetalert2'
 
 const Contact = (props) => {
     const form = useRef();
@@ -12,6 +13,21 @@ const Contact = (props) => {
 
         emailjs.sendForm('service_mxkofe9', 'template_6nnfq7k', form.current, 'JJndjKdTeeM6qpjfF')
             .then((result) => {
+                Swal.mixin({
+                    toast: true,
+                    position: 'top-end',
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                    }
+                }).fire({
+                    icon: 'success',
+                    title: `Pesan berhasil dikirim`,
+                })
+
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
