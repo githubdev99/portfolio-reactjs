@@ -15,10 +15,16 @@ import experienceData from './json/experience.json'
 import servicesData from './json/services.json'
 import portfolioData from './json/portfolio.json'
 import workData from './json/work.json'
+import Helmet from 'react-helmet';
+import favicon from './assets/favicon.ico'
 
 const App = () => {
     return (
         <Fragment>
+            <Helmet>
+                <link rel="icon" href={favicon} />
+                <title>Devspace | Portfolio</title>
+            </Helmet>
             <Header profileData={profileData} />
             <Nav profileData={profileData} />
             <About profileData={profileData} aboutData={aboutData} />
