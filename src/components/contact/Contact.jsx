@@ -10,16 +10,14 @@ const Contact = (props) => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        console.log(form);
+        emailjs.sendForm('service_mxkofe9', 'template_6nnfq7k', form.current, 'JJndjKdTeeM6qpjfF')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
-        // emailjs.sendForm('service_mxkofe9', 'template_6nnfq7k', form.current, 'JJndjKdTeeM6qpjfF')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
-
-        // e.target.reset()
+        e.target.reset()
     };
 
     return (
