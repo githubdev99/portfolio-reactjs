@@ -11,12 +11,12 @@ const Experience = (props) => {
             <div className="container experience__container">
                 {props.experienceData.cards.map((itemCards, indexCards) => {
                     return (
-                        <div>
+                        <div key={indexCards}>
                             <h3>{itemCards.title}</h3>
                             <div className="experience__content">
                                 {itemCards.skills.map((itemSkills, indexSkills) => {
                                     return (
-                                        <article className='experience__details'>
+                                        <article key={indexSkills} className='experience__details'>
                                             <BsFillPatchCheckFill className='experience__details-icon' />
                                             <div>
                                                 <h4>{itemSkills.name}</h4>

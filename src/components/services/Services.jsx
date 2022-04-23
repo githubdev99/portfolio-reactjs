@@ -11,7 +11,7 @@ const Services = (props) => {
             <div className="container services__container">
                 {props.servicesData.cards.map((itemCards, indexCards) => {
                     return (
-                        <article className='service'>
+                        <article key={indexCards} className='service'>
                             <div className="service__head">
                                 <img src={itemCards.logo} alt="partner-logo" className='partner__logo' />
                                 <h3>{itemCards.title}</h3>
@@ -20,7 +20,7 @@ const Services = (props) => {
                             <ul className="service__list">
                                 {itemCards.descriptions.map((itemDescriptions, indexDescriptions) => {
                                     return (
-                                        <li>
+                                        <li key={indexDescriptions}>
                                             <BiCheck className='service__list-icon' />
                                             <p>{itemDescriptions}</p>
                                         </li>
