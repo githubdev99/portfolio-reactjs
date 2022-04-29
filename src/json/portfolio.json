@@ -22,39 +22,46 @@
             "urlDemo": "https://eurekalogistics.co.id/"
         },
         {
+            "title": "Portfolio Abstract",
+            "description": "PHP, Wordpress",
+            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/eureka_finance.png",
+            "urlGithub": "https://github.com/githubdev99/wp-learn",
+            "urlDemo": "http://local.wp-learn.com/"
+        },
+        {
             "title": "DYC Shop",
             "description": "CodeIgniter, MySQL, Ajax",
             "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/dyc_shop.png",
             "urlGithub": "https://github.com/githubdev99/dyc_shop",
-            "urlDemo": null
+            "urlDemo": "http://local.dyc_shop.com/"
         },
         {
             "title": "POS Coffeeshop",
             "description": "CodeIgniter, Express.js, REST API, MySQL",
             "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/pos_coffeeshop.png",
             "urlGithub": "https://github.com/githubdev99/pos-coffeeshop",
-            "urlDemo": null
+            "urlDemo": "http://local.pos-coffeeshop.com/"
         },
         {
             "title": "Fixit",
             "description": "CodeIgniter, MySQL, Ajax",
             "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/fixit.png",
             "urlGithub": "https://github.com/githubdev99/fixit",
-            "urlDemo": null
+            "urlDemo": "http://local.fixit.com/"
         },
         {
             "title": "Pustaka Booking",
             "description": "CodeIgniter, MySQL, Ajax",
             "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/pustaka_booking.png",
             "urlGithub": "https://github.com/githubdev99/pustaka_booking",
-            "urlDemo": null
+            "urlDemo": "http://local.pustaka_booking.com/"
         },
         {
             "title": "Eureka Finance",
             "description": "React.js, Redux",
             "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/eureka_finance.png",
             "urlGithub": "https://github.com/githubdev99/eurekafinance-reactjs",
-            "urlDemo": null
+            "urlDemo": "http://localhost:4000/"
         }
     ]
 }
