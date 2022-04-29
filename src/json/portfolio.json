@@ -24,7 +24,7 @@
         {
             "title": "Portfolio Abstract",
             "description": "PHP, Wordpress",
-            "image": "https://raw.githubusercontent.com/githubdev99/portfolio-reactjs/master/src/assets/history_projects/eureka_finance.png",
+            "image": "https://github.com/githubdev99/portfolio-reactjs/blob/master/src/assets/history_projects/wp_learn.png",
             "urlGithub": "https://github.com/githubdev99/wp-learn",
             "urlDemo": "http://local.wp-learn.com/"
         },
