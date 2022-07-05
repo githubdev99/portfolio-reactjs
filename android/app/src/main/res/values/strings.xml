@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Devspace Portfolio</string>
+    <string name="title_activity_main">Devspace Portfolio</string>
+    <string name="package_name">com.example.app</string>
+    <string name="custom_url_scheme">com.example.app</string>
+    <string name="server_client_id">288682191358-d14f13mirplgnjj8n2kt8pr5n18d4h3o.apps.googleusercontent.com</string>
+
+</resources>

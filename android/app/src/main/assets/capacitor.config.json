@@ -1,0 +1,16 @@
+{
+	"appId": "com.example.app",
+	"appName": "Devspace Portfolio",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"GoogleAuth": {
+			"scopes": [
+				"profile",
+				"email"
+			],
+			"serverClientId": "288682191358-d14f13mirplgnjj8n2kt8pr5n18d4h3o.apps.googleusercontent.com",
+			"forceCodeForRefreshToken": true
+		}
+	}
+}
