@@ -54,7 +54,7 @@ const CTA = (props) => {
         Kontak Saya
       </a> */}
       <a href="#" className="btn btn-primary" onClick={signIn}>
-        Login with Google
+        Login here with Google
       </a>
     </div>
   );
