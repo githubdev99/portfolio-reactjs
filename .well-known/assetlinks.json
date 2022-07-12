@@ -4,7 +4,9 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.dev1104health.app",
-      "sha256_cert_fingerprints": ["4F:2E:66:DB:4B:61:AA:61:8F:2D:F1:B8:FE:10:F6:E5:AD:E8:82:DF:32:4F:27:9C:46:A7:78:A6:D2:61:93:8E"]
+      "sha256_cert_fingerprints": [
+        "4F:2E:66:DB:4B:61:AA:61:8F:2D:F1:B8:FE:10:F6:E5:AD:E8:82:DF:32:4F:27:9C:46:A7:78:A6:D2:61:93:8E"
+      ]
     }
   }
 ]
